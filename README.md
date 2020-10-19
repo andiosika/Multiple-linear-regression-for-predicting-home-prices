@@ -41,4 +41,4 @@ K_C_RealEstateEval_2014_2015.pdf - presentation summarizing findings for a non-t
 
 ### Blog Post: [Categorical Data](https://andiosika.github.io/categorical_data)
 
-### Video Presentation for Non-Technical Audience: [King County Residential Real Estate Evaluation 2014-2015](rebrand.ly/t2bhdz)
+### Video Presentation for Non-Technical Audience: [King County Residential Real Estate Evaluation 2014-2015](https://github.com/andiosika/Multivariate-linear-regression-for-predicting-home-prices/blob/master/zoom_0.mp4)
