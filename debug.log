@@ -112,3 +112,5 @@
 [1022/103049.827:ERROR:process_reader_win.cc(151)] SuspendThread: Access is denied. (0x5)
 [1022/103050.798:ERROR:process_reader_win.cc(151)] SuspendThread: Access is denied. (0x5)
 [1022/103050.798:ERROR:process_reader_win.cc(151)] SuspendThread: Access is denied. (0x5)
+[1022/113223.101:ERROR:file_io.cc(90)] ReadExactly: expected 1904, observed 0
+[1022/113223.126:ERROR:crash_report_database_win.cc(474)] failed to read records
