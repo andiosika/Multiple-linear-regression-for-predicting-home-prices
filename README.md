@@ -1,4 +1,4 @@
-# Multivariate Linear Regression 
+# Multiple Linear Regression 
 
 # Description
 
