@@ -14,7 +14,7 @@ An initial model was created via [statsmodels api](https://www.statsmodels.org/s
 
 
 The model performed poorly.  By removing outliers from the target, the model improved and it was discovered (not shockingly) that 79% of the price was effected by 
-location, size and condition as the top three factors and each had a postive impact.  The number of bathrooms were part of this factor, but had a negative impact once the number of bathrooms reached a certain number.
+location, size and grade as the top three factors and each had a postive impact.  The condition or how recently the house was built or remodeled came in next as well as the number of bathrooms - the more bathrooms, the higher the price.
 
 1) zipcode 98003 and others (see below)
 
