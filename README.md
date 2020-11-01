@@ -14,6 +14,7 @@ An initial model was created via [statsmodels api](https://www.statsmodels.org/s
 
 
 The model performed poorly.  By removing outliers from the target, the model improved and it was discovered (not shockingly) that 79% of the price was effected by 
+location, size and condition as the top three factors and each had a postive impact.  The number of bathrooms were part of this factor, but had a negative impact once the number of bathrooms reached a certain number.
 
 1) zipcode 98003 and others (see below)
 
@@ -24,8 +25,6 @@ The model performed poorly.  By removing outliers from the target, the model imp
 4) condition coef = 1.956e+04
 
 5) bathrooms coef = 1.7e+04
-
-6) years since last up grade (either the year built or when it was last updated with a renovation) coef = 793
 
 
 
