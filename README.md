@@ -6,7 +6,7 @@ For this project, I examined an well-known and open-source dataset: King County 
 
 The initial dataset included 21 columns with various data types representing home and lot size, bedroom and bathroom counts, the age and condition of the home, as well as geographic data.
 
-Various forms of eda were to examine each feature for datatype, missing values, distributions, outliers, and preliminary correlations.  This process informed how to best clean data and assign categories appropriately to retain as much data as possible, while removing that which could impede an accurate model creation.   
+Various forms of exploratory data analysis (eda) were to examine each feature for datatype, missing values, distributions, outliers, and preliminary correlations.  This process informed how to best clean data and assign categories appropriately to retain as much data as possible, while removing that which could impede an accurate model creation.   
 
 Outliers were removed using [z-scores](https://www.statisticshowto.com/probability-and-statistics/z-score/) and those features that most highly correlated were evaluated to drop several columns that either provided very little insight (eg, id provides no value).  The data was then normalized and scaled accordingly.  
 
@@ -14,7 +14,13 @@ An initial model was created via [statsmodels api](https://www.statsmodels.org/s
 
 
 The initial model performed poorly.  By removing outliers from the target, the model improved and it was discovered (not shockingly) that 79% of the price was effected by 
-location, size and grade as the top three factors and each had a postive impact.  The condition or how recently the house was built or remodeled came in next as well as the number of bathrooms - the more bathrooms, the higher the price.
+* location - this was demonstrated by zip code
+* size - square feet of living space
+* grade - the quality of materials and construction used in building the structure
+
+as the top three factors and each had a postive impact.  
+
+The condition or how recently the house was built or remodeled came in next as well as the number of bathrooms - the more bathrooms, the higher the price.
 
 1) zipcode 98003 and others (see below)
 
