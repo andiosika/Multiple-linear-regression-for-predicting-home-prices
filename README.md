@@ -10,9 +10,9 @@ student.ipynb - Notebook inclues data, methodologies and modeling around predict
 
 K_C_RealEstateEval_2014_2015.pdf - presentation summarizing findings for a non-technical audience
 
-## Additional Files
+### Additional Files
 
-### Blog Post: [Categorical Data](https://andiosika.github.io/categorical_data)
+#### Blog Post: [Categorical Data](https://andiosika.github.io/categorical_data)
 
 ## Methodology and Findings:
 A linear regression was conducted using the statsmodels api and it was discovered (not shockingly) that 79% of the price was effected by:
