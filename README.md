@@ -14,9 +14,7 @@ K_C_RealEstateEval_2014_2015.pdf - presentation summarizing findings for a non-t
 
 ### Blog Post: [Categorical Data](https://andiosika.github.io/categorical_data)
 
-The initial dataset included 21 columns with various data types representing home and lot size, bedroom and bathroom counts, the age and condition of the home, as well as geographic data.
-
-
+## Methodology and Findings:
 A linear regression was conducted using the statsmodels api and it was discovered (not shockingly) that 79% of the price was effected by:
 
 * location - this was demonstrated by zip code
