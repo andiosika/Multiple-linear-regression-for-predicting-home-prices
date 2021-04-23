@@ -19,9 +19,10 @@ A linear regression was conducted using the statsmodels api and it was discovere
 * size - square feet of living space
 * grade - the quality of materials and construction used in building the structure
 
-as the top three factors and each had a postive impact.  
+* The condition or how recently the house was built or remodeled came in next as well as 
+* the number of bathrooms - the more bathrooms, the higher the price.
 
-The condition or how recently the house was built or remodeled came in next as well as the number of bathrooms - the more bathrooms, the higher the price.
+More specific outputs:
 
 1) zipcode 98003 and others (see below)
 
